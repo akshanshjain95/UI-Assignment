@@ -58,17 +58,7 @@ vertical-align: middle;
 color: white;
 }
 
-.learn-more a {
-color: white;
-text-decoration: none;
-}
-
-.learn-more a:hover {
-color: white;
-text-decoration: none;
-}
-
-.learn-more a:visited {
+.learn-more a, .learn-more a:hover, .learn-more a:visited {
 color: white;
 text-decoration: none;
 }
@@ -135,4 +125,33 @@ padding: 5px;
 .service-sub-heading {
 font-size: 1.5em;
 margin-bottom: 1.5em;
+}
+
+.portfolio-row {
+padding-top: 5em;
+padding-bottom: 5em;
+}
+
+.portfolio-button {
+display: inline;
+color: white;
+background-color: #003366;
+padding-top: 1.5em;
+padding-bottom: 1.5em;
+padding-left: 2.5em;
+padding-right: 2.5em;
+}
+
+.portfolio-row a, .portfolio-row a:hover, .portfolio-row a:visited {
+color: white;
+text-decoration: none;
+}
+
+.portfolio-button:hover, .portfolio-button:visited {
+background-color: #ff1a66;
+}
+
+.portfolio-img {
+height: 300px;
+width: 300px;
 }
